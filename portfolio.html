@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ポートフォリオ</title>
-    <link rel = "stylesheet" href = "portfolio.css">
-    <<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Hero section -->
@@ -53,49 +53,68 @@
     </section>
 
     <!-- portfolio section -->
-    <div class="portfolio">
-        <div class="title">
-            <h2>ポートフォリオ</h2>
+<div class="portfolio">
+    <div class="title">
+        <h2>ポートフォリオ</h2>
+    </div>
+    <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h5>Web開発者</h5>
+            <div class="paragraph">
+                <p>
+                    高度なWeb開発のスキルを持ち、最新の技術を使用してユーザーフレンドリーで反応が良いウェブサイトを構築します。
+                </p>
+            </div>
+            <div class="button-container">
+                <a href="#" class="button">もっと読む</a>
+            </div>
         </div>
-        <div class="box">
-            <div class="card">
-                <i class="fa-solid fa-code"></i>
-                <h5>Web Developer</h5>
-                <div class="paragraph">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p style = "text-align: center;">
-                        <a href="#" class = "button">もっと読む</a>
-                    </p>
-                </div>
+        <div class="card">
+            <i class="fa-solid fa-bars"></i>
+            <h5>フルスタック開発者</h5>
+            <div class="paragraph">
+                <p>
+                    フロントエンドからバックエンドまで、全体をカバーするスキルで、シームレスなユーザーエクスペリエンスを提供します。
+                </p>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-bars"></i>
-                <h5>Web Developer</h5>
-                <div class="paragraph">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p style = "text-align: center;">
-                        <a href="#" class = "button">もっと読む</a>
-                    </p>
-                </div>
+            <div class="button-container">
+                <a href="#" class="button">もっと読む</a>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-bell"></i>
-                <h5>Web Developer</h5>
-                <div class="paragraph">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p style = "text-align: center;">
-                        <a href="#" class = "button">もっと読む</a>
-                    </p>
-                </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-bell"></i>
+            <h5>ソフトウェアエンジニア</h5>
+            <div class="paragraph">
+                <p>
+                    最新の技術を駆使して、クライアントのニーズに合わせた革新的なソフトウェアソリューションを設計・開発します。
+                </p>
+            </div>
+            <div class="button-container">
+                <a href="#" class="button">もっと読む</a>
             </div>
         </div>
     </div>
+</div>
 
+
+    <!--contact section-->
+    <div class="contact">
+        <p>気になる方は私にお問い合わせください．</p>
+        <a href="#" class = "contact-button">お問い合わせ</a>
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <p>Aoya's Portfolio</p>
+        <p>下記にSNSを示す</p>
+        <div class="social">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <p class="end">CopyRight@Aoya</p>
+    </footer>
 </body>
 </html>
