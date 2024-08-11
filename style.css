@@ -77,8 +77,8 @@ nav ul li a:hover{
 
 /*自己写真*/
 .content .body img{
-    width: 360px;
-    height: 540px;
+    width: 300px;
+    height: 400px;
     margin-top: -150px;
 }
 
@@ -180,6 +180,14 @@ h4{
 /*本文*/
 .about-text p{
     color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.about-text a{
+    color: gray;
     letter-spacing: 1px;
     line-height: 28px;
     margin-bottom: 45px;
