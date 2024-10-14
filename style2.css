@@ -6,6 +6,12 @@
 }
 
 /* 共通スタイル */
+
+.hero {
+    height: auto;
+    padding: 50px 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -223,10 +229,6 @@ footer p {
 
 /* レスポンシブデザイン */
 @media only screen and (max-width: 768px) {
-    .hero {
-        height: auto;
-        padding: 50px 0;
-    }
 
     nav {
         flex-direction: column;
