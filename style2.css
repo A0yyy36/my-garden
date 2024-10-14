@@ -1,0 +1,264 @@
+/* 基本のリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 共通スタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #101010;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+/* ナビゲーション */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8%;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Heroセクション */
+.hero {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1,
+h3,
+h4 {
+    margin-bottom: 20px;
+}
+
+/* メインコンテンツ */
+.content {
+    padding: 150px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    background-color: lightseagreen;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* ポートフォリオセクション */
+.portfolio {
+    background-color: #101010;
+    padding: 100px 0;
+}
+
+.title h2 {
+    font-size: 75px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 450px;
+}
+
+.card h5 {
+    font-size: 23px;
+    margin-bottom: 3px;
+}
+
+.card .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+}
+
+.card .button {
+    background-color: lightseagreen;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    color: white;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid lightseagreen;
+    cursor: pointer;
+}
+
+/* Contactセクション */
+.contact {
+    background-color: #191919;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact .contact-button {
+    background-color: lightseagreen;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.contact .contact-button:hover {
+    background-color: transparent;
+    border: 2px solid lightseagreen;
+}
+
+/* フッター */
+footer {
+    background-color: #101010;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icon {
+    background-color: lightseagreen;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.social-icon i {
+    color: white;
+    font-size: 20px;
+}
+
+/* レスポンシブデザイン */
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 50px 20px;
+        flex-direction: column;
+    }
+
+    .content img {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .portfolio .box {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
