@@ -168,6 +168,11 @@ h4{
     letter-spacing: 1px;
     font-size: 63px;
     margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.about-text h2 a:hover{
+    color: lightseagreen;
 }
 
 /*大学*/
