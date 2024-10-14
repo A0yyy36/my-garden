@@ -407,13 +407,45 @@ footer p:nth-child(2) {
 }
 
 /* レスポンシブデザイン */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
 
     /* 基本のリセット */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    .hero{
+        height: 130vh;
+        width: 250%;
+        background-color: #101010;
+    }
+
+    .about{
+        width: 250%;
+        padding: 100px 0;
+        background-color: #191919;
+    }
+
+    .contact{
+        width: 250%;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+
+    footer {
+        width: 250%;
+        height: 400px;
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
     }
 
     /* 共通スタイル */
@@ -474,6 +506,14 @@ footer p:nth-child(2) {
         justify-content: center;
         align-items: center;
         text-align: center;
+        left: 5%;
+    }
+
+    .content .body img {
+        width: 300px;
+        height: 400px;
+        margin-right: -90%;
+        margin-top: -10%;
     }
 
     h1,
@@ -532,12 +572,17 @@ footer p:nth-child(2) {
 
     /* ポートフォリオセクション */
     .portfolio {
+        width: 1030px;
         background-color: #101010;
         padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .title h2 {
         font-size: 75px;
+        justify-content: center;
         text-align: center;
     }
 
@@ -556,12 +601,16 @@ footer p:nth-child(2) {
     }
 
     .card h5 {
-        font-size: 23px;
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    .card h6 {
+        font-size: 30px;
         margin-bottom: 3px;
     }
 
     .card .paragraph {
-        font-size: 16px;
+        font-size: 26px;
         line-height: 1.5;
         margin-bottom: 30px;
         color: white;
