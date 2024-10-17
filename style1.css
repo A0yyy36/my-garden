@@ -168,6 +168,11 @@ h4{
     letter-spacing: 1px;
     font-size: 63px;
     margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.about-text h2 a:hover{
+    color: lightseagreen;
 }
 
 /*大学*/
@@ -232,6 +237,13 @@ button:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
 }
 
 .card {
@@ -295,7 +307,7 @@ h6 {
 
 .card .button {
     background-color: lightseagreen;
-    padding: 5% 10%;
+    padding: 15px 30px;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -401,4 +413,856 @@ footer p:nth-child(2) {
     color: white;
     margin-top: 5%;
     font-size: 80%;
+}
+
+@media only screen and (max-width: 900px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*一枚目上部*/
+    .hero{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+        background-color: #101010;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 45px 8% 0 8%;
+    }
+    
+    /*ロゴ*/
+    .logo{
+        color: white;
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    
+    span{
+        color: lightseagreen;
+    }
+    
+    /*ホーム ブログ ポートフォリオ*/
+    nav ul li{
+        display: inline-block;
+        padding: 10px 25px;
+    }
+    
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
+    
+    nav ul li a:hover{
+        color: lightseagreen;
+    }
+    
+    /*お問い合わせボタン*/
+    .btn{
+        background-color: lightseagreen;
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
+    
+    .btn:hover{
+        transform: scale(1.2);
+        border-radius: 20px;
+    }
+    
+    /*一枚目中部*/
+    .content{
+        padding-top: 10%;
+    }
+    
+    .content .body{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .portforioInfo{
+        text-align: right;
+        padding-right: 5%;
+    }
+    
+    /*自己写真*/
+    .content .body img{
+        width: 300px;
+        height: 400px;
+    }
+    
+    /*名前*/
+    h1{
+        color: white;
+        margin: 20px 0 20px;
+        font-size: 40px;
+    }
+    
+    /*使用言語*/
+    h3{
+        color: white;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    
+    /*所属大学*/
+    h4{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    
+    /*メール送信部*/
+    .newsletter form{
+        width: 380px;
+        position: relative;
+    }
+    
+    /*メールアドレス入力部*/
+    .newsletter form input:first-child{
+        width: 100%;
+        padding: 15px 130px 15px 15px;
+        outline: none;
+        border: 2px solid lightseagreen;
+        border-radius: 30px;
+    }
+    
+    /*お問い合わせボタン*/
+    .newsletter form input:last-child{
+        position: absolute;
+        border: none;
+        top: 4px;
+        right: 8px;
+        padding: 10px 30px;
+        background-color: lightseagreen;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px black;
+        transition: all 0.3s;
+    }
+    
+    .newsletter form input:last-child:hover{
+        transform: scale(1.1);
+    }
+    
+    /*二枚目*/
+    .about{
+        width: 100%;
+        padding: 10% 0;
+        background-color: #191919;
+    }
+    
+    /*自己写真*/
+    .about img{
+        width: 25%;
+    }
+    
+    /*自己紹介*/
+    .about-text{
+        width: 60%;
+    }
+    
+    .main{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    /*名前*/
+    .about-text h2 a{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 63px;
+        margin-bottom: 20px;
+        transition: all 0.3s;
+    }
+    
+    .about-text h2 a:hover{
+        color: lightseagreen;
+    }
+    
+    /*大学*/
+    .about-text h5{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    /*本文*/
+    .about-text p{
+        color: white;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    
+    .about-text a{
+        color: gray;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    
+    /*お問い合わせボタン*/
+    button{
+        background-color: lightseagreen;
+        padding: 13px 30px;
+        color: white;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: all 0.3s
+    }
+    
+    button:hover{
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+
+    /*ここから*/
+    
+    /*ポートフォリオ*/
+    .portfolio {
+        background-color: #101010;
+        width: 100%;
+        padding: 5% 0;
+    }
+    
+    /*タイトル*/
+    .title h2 {
+        color: white;
+        font-size: 75px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    /*ポートフォリオカード*/
+    .box {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card {
+        height: auto;
+        width: 95%;
+        background-color: #191919;
+        padding: 20px 35px;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .card .paragraph {
+        font-size: large;
+        line-height: 1.5;
+        display: flex;
+        text-align: left;
+        align-items: center; /* 縦方向の中央揃え */
+        justify-content: flex-start; /* 左詰め */
+        height: 100%; /* 親要素の高さに依存 */
+    }
+    
+    .card i {
+        color: lightseagreen;
+        font-size: 300%;
+        margin: 5% 0;
+    }
+    
+    /*カードタイトル*/
+    h5 {
+        color: white;
+        font-size: 150%;
+        margin-bottom: 2%;
+    }
+    
+    h6 {
+        color: white;
+        font-size: 100%;
+        margin-bottom: 5%;
+    }
+    
+    /*カード内容*/
+    .paragraph {
+        color: white;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        flex-grow: 1;
+    }
+    
+    /*詳しくボタン*/
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+    }
+    
+    .card .button {
+        background-color: lightseagreen;
+        padding: 15px 30px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    
+    .card .button:hover {
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+    
+    /*三枚目*/
+    .contact{
+        width: 100%;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+    
+    /*お問い合わせ部*/
+    .contact p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    
+    /*お問い合わせボタン*/
+    .contact .contact-button{
+        background-color: lightseagreen;
+        padding: 13px 30px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    
+    .contact .contact-button:hover {
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+    
+    /*最下部*/
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    footer p:nth-child(1) {
+        font-size: 200%;
+        color: white;
+        margin-bottom: 1%;
+        font-weight: bold;
+    }
+    
+    footer p:nth-child(2) {
+        color: white;
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    /*各SNS*/
+    .social {
+        display: flex;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: lightseagreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 22px 10px;
+        transition: all 0.3s;
+    }
+    
+    .social-icon i {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .social-icon:hover{
+        transform: scale(1.3);
+    }
+    
+    /*コピーライト*/
+    .end{
+        color: white;
+        margin-top: 5%;
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*一枚目上部*/
+    .hero{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+        background-color: #101010;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 45px 8% 0 8%;
+    }
+    
+    /*ロゴ*/
+    .logo{
+        color: white;
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    
+    span{
+        color: lightseagreen;
+    }
+    
+    /*ホーム ブログ ポートフォリオ*/
+    nav ul li{
+        display: inline-block;
+        padding: 10px 25px;
+    }
+    
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
+    
+    nav ul li a:hover{
+        color: lightseagreen;
+    }
+    
+    /*お問い合わせボタン*/
+    .btn{
+        background-color: lightseagreen;
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
+    
+    .btn:hover{
+        transform: scale(1.2);
+        border-radius: 20px;
+    }
+    
+    /*一枚目中部*/
+    .content{
+        padding-top: 10%;
+    }
+    
+    .content .body{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .portforioInfo{
+        text-align: right;
+        padding-right: 5%;
+    }
+    
+    /*自己写真*/
+    .content .body img{
+        width: 300px;
+        height: 400px;
+    }
+    
+    /*名前*/
+    h1{
+        color: white;
+        margin: 20px 0 20px;
+        font-size: 40px;
+    }
+    
+    /*使用言語*/
+    h3{
+        color: white;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    
+    /*所属大学*/
+    h4{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    
+    /*メール送信部*/
+    .newsletter form{
+        width: 380px;
+        position: relative;
+    }
+    
+    /*メールアドレス入力部*/
+    .newsletter form input:first-child{
+        width: 100%;
+        padding: 15px 130px 15px 15px;
+        outline: none;
+        border: 2px solid lightseagreen;
+        border-radius: 30px;
+    }
+    
+    /*お問い合わせボタン*/
+    .newsletter form input:last-child{
+        position: absolute;
+        border: none;
+        top: 4px;
+        right: 8px;
+        padding: 10px 30px;
+        background-color: lightseagreen;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px black;
+        transition: all 0.3s;
+    }
+    
+    .newsletter form input:last-child:hover{
+        transform: scale(1.1);
+    }
+    
+    /*二枚目*/
+    .about{
+        width: 100%;
+        padding: 10% 0;
+        background-color: #191919;
+    }
+    
+    /*自己写真*/
+    .about img{
+        width: 25%;
+    }
+    
+    /*自己紹介*/
+    .about-text{
+        width: 60%;
+    }
+    
+    .main{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    /*名前*/
+    .about-text h2 a{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 63px;
+        margin-bottom: 20px;
+        transition: all 0.3s;
+    }
+    
+    .about-text h2 a:hover{
+        color: lightseagreen;
+    }
+    
+    /*大学*/
+    .about-text h5{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    /*本文*/
+    .about-text p{
+        color: white;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    
+    .about-text a{
+        color: gray;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    
+    /*お問い合わせボタン*/
+    button{
+        background-color: lightseagreen;
+        padding: 13px 30px;
+        color: white;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: all 0.3s
+    }
+    
+    button:hover{
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+
+    /*ここから*/
+    
+    /*ポートフォリオ*/
+    .portfolio {
+        background-color: #101010;
+        width: 100%;
+        padding: 5% 0;
+    }
+    
+    /*タイトル*/
+    .title h2 {
+        color: white;
+        font-size: 75px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    /*ポートフォリオカード*/
+    .box {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card {
+        height: auto;
+        width: 100%;
+        background-color: #191919;
+        padding: 20px 35px;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .card .paragraph {
+        font-size: large;
+        line-height: 1.5;
+        display: flex;
+        text-align: left;
+        align-items: center; /* 縦方向の中央揃え */
+        justify-content: flex-start; /* 左詰め */
+        height: 100%; /* 親要素の高さに依存 */
+    }
+    
+    .card i {
+        color: lightseagreen;
+        font-size: 300%;
+        margin: 5% 0;
+    }
+    
+    /*カードタイトル*/
+    h5 {
+        color: white;
+        font-size: 150%;
+        margin-bottom: 2%;
+    }
+    
+    h6 {
+        color: white;
+        font-size: 100%;
+        margin-bottom: 5%;
+    }
+    
+    /*カード内容*/
+    .paragraph {
+        color: white;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        flex-grow: 1;
+    }
+    
+    /*詳しくボタン*/
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+    }
+    
+    .card .button {
+        background-color: lightseagreen;
+        padding: 15px 30px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    
+    .card .button:hover {
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+    
+    /*三枚目*/
+    .contact{
+        width: 100%;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+    
+    /*お問い合わせ部*/
+    .contact p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    
+    /*お問い合わせボタン*/
+    .contact .contact-button{
+        background-color: lightseagreen;
+        padding: 13px 30px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    
+    .contact .contact-button:hover {
+        background-color: transparent;
+        border: 2px solid lightseagreen;
+        cursor: pointer;
+    }
+    
+    /*最下部*/
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    footer p:nth-child(1) {
+        font-size: 200%;
+        color: white;
+        margin-bottom: 1%;
+        font-weight: bold;
+    }
+    
+    footer p:nth-child(2) {
+        color: white;
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    /*各SNS*/
+    .social {
+        display: flex;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: lightseagreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 22px 10px;
+        transition: all 0.3s;
+    }
+    
+    .social-icon i {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .social-icon:hover{
+        transform: scale(1.3);
+    }
+    
+    /*コピーライト*/
+    .end{
+        color: white;
+        margin-top: 5%;
+        font-size: 80%;
+    }
 }
