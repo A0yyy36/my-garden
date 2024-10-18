@@ -946,8 +946,9 @@ footer p:nth-child(2) {
     
     /*自己写真*/
     .content .body img{
-        width: 300px;
-        height: 400px;
+        width: 260px;
+        height: auto;
+        padding-bottom: 8%;
     }
     
     /*名前*/
@@ -1329,6 +1330,7 @@ footer p:nth-child(2) {
     nav ul li{
         display: inline-block;
         padding: 10px 25px;
+        font-size: 15px;
     }
     
     nav ul li a{
@@ -1778,7 +1780,8 @@ footer p:nth-child(2) {
     /*ホーム ブログ ポートフォリオ*/
     nav ul li{
         display: inline-block;
-        padding: 10px 25px;
+        padding: 10px 15px;
+        font-size: 15px;
     }
     
     nav ul li a{
@@ -1816,7 +1819,7 @@ footer p:nth-child(2) {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-right: 60%;
+        padding-right: 63%;
         padding-left: 5%;
     }
 
@@ -1981,8 +1984,6 @@ footer p:nth-child(2) {
         cursor: pointer;
     }
 
-    /*ここから*/
-    
     /*ポートフォリオ*/
     .portfolio {
         background-color: #101010;
