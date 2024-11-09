@@ -239,21 +239,15 @@ button:hover{
 /*ポートフォリオカード*/
 .box {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
     align-items: normal;
 }
 
-.group1{
-    display: flex;
-    flex-direction: row;
-}
-
-.SPgroup{
-    display: none;
-}
-
 .card {
+    flex-grow: 1;
+    flex-basis: 30%; /*幅による段の変更*/
     height: 100%;
     background-color: #191919;
     padding: 20px 35px;
@@ -671,24 +665,16 @@ footer p:nth-child(2) {
     /*ポートフォリオカード*/
     .box {
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .group1{
-        display: flex;
         flex-direction: row;
+        align-items: normal;
     }
 
-    .SPgroup{
-        display: none;
-    }
-    
     .card {
-        height: auto;
-        width: 95%;
+        flex-grow: 1;
+        flex-basis: 45%;
+        height: 100%;
         background-color: #191919;
         padding: 20px 35px;
         margin: 20px;
@@ -696,6 +682,7 @@ footer p:nth-child(2) {
         overflow: hidden;
         text-align: center;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
@@ -1099,7 +1086,7 @@ footer p:nth-child(2) {
     /*タイトル*/
     .title h2 {
         color: white;
-        font-size: 75px;
+        font-size: 50px;
         margin: 0 auto;
         text-align: center;
     }
@@ -1107,24 +1094,16 @@ footer p:nth-child(2) {
     /*ポートフォリオカード*/
     .box {
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: normal;
     }
 
-    .group1{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .SPgroup{
-        display: none;
-    }
-    
     .card {
-        height: auto;
-        width: 95%;
+        flex-grow: 1;
+        flex-basis: 45%;
+        height: 100%;
         background-color: #191919;
         padding: 20px 35px;
         margin: 20px;
@@ -1132,6 +1111,7 @@ footer p:nth-child(2) {
         overflow: hidden;
         text-align: center;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
@@ -1553,29 +1533,16 @@ footer p:nth-child(2) {
     /*ポートフォリオカード*/
     .box {
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: normal;
     }
 
-    .group1{
-        display: none;
-    }
-
-    .group2{
-        display: none;
-    }
-
-    .SPgroup{
-        display: flex;
-        flex-direction: column;
-        padding-right: 3%;
-    }
-    
     .card {
-        height: auto;
-        width: 95%;
+        flex-grow: 1;
+        flex-basis: 60%;
+        height: 100%;
         background-color: #191919;
         padding: 20px 35px;
         margin: 20px;
@@ -1583,6 +1550,7 @@ footer p:nth-child(2) {
         overflow: hidden;
         text-align: center;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
@@ -2002,29 +1970,16 @@ footer p:nth-child(2) {
     /*ポートフォリオカード*/
     .box {
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: normal;
     }
 
-    .group1{
-        display: none;
-    }
-
-    .group2{
-        display: none;
-    }
-
-    .SPgroup{
-        display: flex;
-        flex-direction: column;
-        padding-right: 3%;
-    }
-    
     .card {
-        height: auto;
-        width: 95%;
+        flex-grow: 1;
+        flex-basis: 60%;
+        height: 100%;
         background-color: #191919;
         padding: 20px 35px;
         margin: 20px;
@@ -2032,6 +1987,7 @@ footer p:nth-child(2) {
         overflow: hidden;
         text-align: center;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
