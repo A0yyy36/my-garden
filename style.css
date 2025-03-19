@@ -146,7 +146,7 @@ h4{
 
 /*自己写真*/
 .about img{
-    width: 25%;
+    width: 30%;
 }
 
 /*自己紹介*/
@@ -175,8 +175,23 @@ h4{
     transition: all 0.3s;
 }
 
+.about-text h2{
+    color: white;
+    letter-spacing: 0px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
 .about-text h2 a:hover{
     color: lightseagreen;
+}
+
+.about-text h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 
 /*大学*/
@@ -286,7 +301,7 @@ h5 {
 h6 {
     color: white;
     font-size: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 /*カード内容*/
@@ -574,12 +589,12 @@ footer p:nth-child(2) {
     
     /*自己写真*/
     .about img{
-        width: 25%;
+        width: 0%;
     }
     
     /*自己紹介*/
     .about-text{
-        width: 60%;
+        width: 80%;
     }
     
     .main{
@@ -598,9 +613,24 @@ footer p:nth-child(2) {
         margin-bottom: 20px;
         transition: all 0.3s;
     }
+
+    .about-text h2{
+        color: white;
+        letter-spacing: 0px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
     
     .about-text h2 a:hover{
         color: lightseagreen;
+    }
+    
+    .about-text h4{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: -20px;
     }
     
     /*大学*/
@@ -1002,12 +1032,12 @@ footer p:nth-child(2) {
     
     /*自己写真*/
     .about img{
-        width: 25%;
+        width: 0%;
     }
     
     /*自己紹介*/
     .about-text{
-        width: 60%;
+        width: 90%;
     }
     
     .main{
@@ -1027,8 +1057,23 @@ footer p:nth-child(2) {
         transition: all 0.3s;
     }
     
+    .about-text h2{
+        color: white;
+        letter-spacing: 0px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
     .about-text h2 a:hover{
         color: lightseagreen;
+    }
+    
+    .about-text h4{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: -20px;
     }
     
     /*大学*/
@@ -1348,8 +1393,8 @@ footer p:nth-child(2) {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-right: 60%;
-        padding-left: 5%;
+        padding-right: 0%;
+        padding-left: 0%;
     }
 
     .SPportfolioInfo{
@@ -1359,7 +1404,7 @@ footer p:nth-child(2) {
     }
 
     .group{
-        padding-left: 55%;
+        padding-left: 0%;
     }
 
     .portfolioInfo{
@@ -1367,12 +1412,12 @@ footer p:nth-child(2) {
     }
     
     /*自己写真*/
-    .content .body img{
+    /*.content .body img{
         width: auto;
         height: 230px;
         padding-left: 20%;
         margin-right: -20%;
-    }
+    }*/
     
     /*名前*/
     h1{
@@ -1386,7 +1431,7 @@ footer p:nth-child(2) {
         display: flex;
         color: white;
         font-size: 25px;
-        margin-left: 55%;
+        margin-left: 0%;
         margin-bottom: -5%;
     }
     
@@ -1440,13 +1485,13 @@ footer p:nth-child(2) {
     
     /*自己写真*/
     .about img{
-        width: 30%;
-        padding-top: 10%;
+        width: 0%;
+        padding-top: 0%;
     }
     
     /*自己紹介*/
     .about-text{
-        width: 60%;
+        width: 90%;
     }
     
     .main{
@@ -1466,8 +1511,23 @@ footer p:nth-child(2) {
         transition: all 0.3s;
     }
     
+    .about-text h2{
+        color: white;
+        letter-spacing: 0px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
     .about-text h2 a:hover{
         color: lightseagreen;
+    }
+    
+    .about-text h4{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: -20px;
     }
     
     /*大学*/
@@ -1787,7 +1847,7 @@ footer p:nth-child(2) {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-right: 63%;
+        padding-right: 0%;
         padding-left: 5%;
     }
 
@@ -1798,7 +1858,7 @@ footer p:nth-child(2) {
     }
 
     .group{
-        padding-left: 55%;
+        padding-left: 0%;
     }
 
     .portfolioInfo{
@@ -1825,7 +1885,7 @@ footer p:nth-child(2) {
         display: flex;
         color: white;
         font-size: 25px;
-        margin-left: 55%;
+        margin-left: 0%;
         margin-bottom: -5%;
     }
     
@@ -1878,22 +1938,23 @@ footer p:nth-child(2) {
     }
     
     /*自己写真*/
-    .about img{
-        width: 30%;
-        padding-top: 10%;
-    }
+    /*.about img{
+        width: 0%;
+        padding-top: 0%;
+    }*/
     
     /*自己紹介*/
     .about-text{
-        width: 60%;
+        width: 90%;
     }
     
     .main{
         width: 100%;
         display: flex;
         align-items: flex-start;
-        margin: 3% auto -10%;
+        margin: 3% 0% -10% 0%;
         justify-content: space-around;
+
     }
     
     /*名前*/
@@ -1905,8 +1966,23 @@ footer p:nth-child(2) {
         transition: all 0.3s;
     }
     
+    .about-text h2{
+        color: white;
+        letter-spacing: 0px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
     .about-text h2 a:hover{
         color: lightseagreen;
+    }
+    
+    .about-text h4{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: -20px;
     }
     
     /*大学*/
