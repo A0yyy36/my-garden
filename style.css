@@ -587,11 +587,6 @@ footer p:nth-child(2) {
         background-color: #191919;
     }
     
-    /*自己写真*/
-    .about img{
-        width: 0%;
-    }
-    
     /*自己紹介*/
     .about-text{
         width: 80%;
@@ -1028,11 +1023,6 @@ footer p:nth-child(2) {
         width: 100%;
         padding: 10% 0;
         background-color: #191919;
-    }
-    
-    /*自己写真*/
-    .about img{
-        width: 0%;
     }
     
     /*自己紹介*/
@@ -1483,12 +1473,6 @@ footer p:nth-child(2) {
         background-color: #191919;
     }
     
-    /*自己写真*/
-    .about img{
-        width: 0%;
-        padding-top: 0%;
-    }
-    
     /*自己紹介*/
     .about-text{
         width: 90%;
@@ -1936,12 +1920,6 @@ footer p:nth-child(2) {
         padding: 10% 0;
         background-color: #191919;
     }
-    
-    /*自己写真*/
-    /*.about img{
-        width: 0%;
-        padding-top: 0%;
-    }*/
     
     /*自己紹介*/
     .about-text{
