@@ -2006,6 +2006,15 @@ footer p:nth-child(2) {
         margin-top: 25px;
         margin-bottom: 30px;
     }
+
+    .about-text h5 a{
+        color: lightseagreen;
+        letter-spacing: 1px;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        transition: all 0.3s
+    }
     
     /*本文*/
     .about-text p{
