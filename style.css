@@ -173,6 +173,7 @@ h4{
     font-size: 63px;
     margin-bottom: 20px;
     transition: all 0.3s;
+    text-decoration: none;
 }
 
 .about-text h2{
@@ -184,6 +185,7 @@ h4{
 
 .about-text h2 a:hover{
     color: lightseagreen;
+    text-decoration: none;
 }
 
 .about-text h4{
@@ -625,6 +627,7 @@ footer p:nth-child(2) {
         font-size: 63px;
         margin-bottom: 20px;
         transition: all 0.3s;
+        text-decoration: none;
     }
 
     .about-text h2{
@@ -636,6 +639,7 @@ footer p:nth-child(2) {
     
     .about-text h2 a:hover{
         color: lightseagreen;
+        text-decoration: none;
     }
     
     .about-text h4{
@@ -1068,6 +1072,7 @@ footer p:nth-child(2) {
         font-size: 63px;
         margin-bottom: 20px;
         transition: all 0.3s;
+        text-decoration: none;
     }
     
     .about-text h2{
@@ -1079,6 +1084,7 @@ footer p:nth-child(2) {
     
     .about-text h2 a:hover{
         color: lightseagreen;
+        text-decoration: none;
     }
     
     .about-text h4{
@@ -1522,6 +1528,7 @@ footer p:nth-child(2) {
         font-size: 55px;
         margin-bottom: 20px;
         transition: all 0.3s;
+        text-decoration: none;
     }
     
     .about-text h2{
@@ -1533,6 +1540,7 @@ footer p:nth-child(2) {
     
     .about-text h2 a:hover{
         color: lightseagreen;
+        text-decoration: none;
     }
     
     .about-text h4{
@@ -1977,6 +1985,7 @@ footer p:nth-child(2) {
         font-size: 50px;
         margin-bottom: 20px;
         transition: all 0.3s;
+        text-decoration: none;
     }
     
     .about-text h2{
@@ -1988,6 +1997,7 @@ footer p:nth-child(2) {
     
     .about-text h2 a:hover{
         color: lightseagreen;
+        text-decoration: none;
     }
     
     .about-text h4{
