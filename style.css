@@ -217,6 +217,12 @@ h4 {
     text-decoration: none;
 }
 
+#age {
+    color: white;
+    font-size: 40px;
+
+}
+
 .about-text h4 {
     color: var(--color-text);
     letter-spacing: 1px;
