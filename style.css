@@ -473,7 +473,6 @@ footer p:nth-child(2) {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: var(--color-accent);
     display: flex;
     align-items: center;
     justify-content: center;
